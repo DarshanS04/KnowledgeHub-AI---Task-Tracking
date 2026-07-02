@@ -8,7 +8,7 @@ from app.schemas.common import (
 )
 from app.schemas.user import UserBase, UserCreate, UserResponse, UserUpdate
 from app.schemas.auth import SignupRequest, LoginRequest, TokenResponse, RefreshRequest
-from app.schemas.document import DocumentBase, DocumentResponse
+from app.schemas.document import DocumentBase, DocumentResponse, GithubCloneRequest, YoutubeImportRequest, NoteCreateRequest
 from app.schemas.chat import (
     MessageBase,
     MessageResponse,
@@ -37,6 +37,9 @@ __all__ = [
     "RefreshRequest",
     "DocumentBase",
     "DocumentResponse",
+    "GithubCloneRequest",
+    "YoutubeImportRequest",
+    "NoteCreateRequest",
     "MessageBase",
     "MessageResponse",
     "ConversationBase",
