@@ -1,6 +1,3 @@
-from app.pages.LandingPage import LandingPage;
-// Wait! Let's correct the paths. The path is relative inside frontend/src/pages/.
-// So it is simply:
 export { LandingPage } from './LandingPage';
 export { LoginPage } from './LoginPage';
 export { SignupPage } from './SignupPage';

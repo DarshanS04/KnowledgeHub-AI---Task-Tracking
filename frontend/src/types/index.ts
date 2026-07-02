@@ -77,3 +77,13 @@ export interface SystemStatsResponse {
   total_conversations: number;
   total_messages: number;
 }
+
+export interface SearchResult {
+  filename: string;
+  page?: number;
+  chunk_number: number;
+  similarity_score: number;
+  preview_snippet: string;
+  document_id: string;
+}
+
